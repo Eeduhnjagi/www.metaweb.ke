@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body {
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    background-color: black;
+    height: 109vh;
+
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo {
+    color: wheat;
+    font-size: px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+
+}
+    
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul {
+    float:left ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 14px;
+    color: lime;
+}
+ul li a {
+    text-decoration: none;
+    color: greenyellow;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0s ;
+
+}
+ul li a:hover{
+    color:orangered;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    float: right;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: wheat;
+    font-size: 16px;
+    padding: 25px;box-shadow: 0 10px 10px cyan;
+     border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid 13px;
+    color:black;
+    font-size: 15px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    float: right;
+    margin-left: 310px;
+    box-shadow: 0 10px 10px lime;
+    cursor:pointer;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+
+}
+.btn:focus:hover{
+    outline:none;
+   background-color:wheat;
+}
+.srch:focus:hover{
+    outline: none;
+    background-color:black!important;
+
+}
+.content{
+    width: 390px;
+    height: auto;
+    margin: auto;
+    color: cyan;
+    position: relative;
+}
+.content .par {
+    padding-left: 220px
+    padding-bottom 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1 {
+    font-family:'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+     border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.cn:hoovera{
+    background-color:lime!important;
+}
+.content span{
+    color:wheat;
+    font-size: 60px;
+
+
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background:rgb(40, 40, 41);
+    position: absolute;
+    background-image: url(  );
+    background-size: cover;
+    background-position: top;
+    top: 90px;
+    left:510px;
+    border-radius: 10px;
+    padding: 25px; 
+    border-bottom-left-radius:105px;
+    border-top-right-radius:105px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: wheat;
+    font-size: 22px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    background-size: cover;
+    background-position: top;
+    color: cyan;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: sans-serif;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    
+}
+.form input:focus{
+    outline:none;
+}
+ ::placeholder{
+    color:wheat;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px ;
+    transition: 0.4s ease; border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+
+}
+.btn :hoover{
+    background-color: blue;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: blue;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: wheat;
+}
+.icons ion-icon{
+    color: wheat;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.icon-ion-icon:hover{
+    color: orangered;
+}

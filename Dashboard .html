@@ -1,0 +1,116 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.4.1"></script>
+    <script src="https://kit.fontawesome.com/a076d053399.js"></script>
+</head>
+<body>
+
+<div>
+    <i class="fa fa-bars"></i>
+
+</div>
+    
+    <nav class="sidebar">
+        <div class="text">My Account</div>
+    <ul>
+     <li> <a href="#">Dashboard</a></li>   
+     <ul>
+     <li><a href="index.html">Home</a></li>
+     <li> <a href="#">Profile</a></li>
+     </ul>
+     <li><a href="#">Deposit </a></li>
+     <ul>
+        <li><a href="Deposit.html">M-pesa</a></li>
+    </ul>
+
+     <li><a href="Withdraw.html">Withdraw</a></li> 
+    <li><a href="#">Download</a></li>
+     <li> <a href="#">Submit</a></li>
+     <li><a href="#">Privacy  Policy</a></li>
+         <li><a href="Sign up.html">Log out</a></li>
+    </ul>
+</nav>
+  </div>  
+  <style> 
+*{
+    margin:0;
+    padding:0;
+    color: blue;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left:-250;
+    background:#1b1b1b;
+
+}
+.sidebar .text{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background-color: #1e1e1e;
+    letter-spacing: 1px;
+}
+
+
+nav ul{
+    background: #1b1b1b;
+    background-image: url( );
+    background-size: cover;
+    background-position: bottom;
+    height: 80;
+    width: 80%;
+    list-style: none;
+}
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgba( 255,255,255,0.1);
+}
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+nav ul li a:hover{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color:cyan;
+
+}
+na ul ul{
+    position: static;
+    display: none;
+}
+nav ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+nav ul ul li a{
+    font-size: 17px;
+    color:#e6e6e6;
+    padding-left: 80px;
+}
+nav ul ul li a span{
+position: absolute;
+top: 50%;
+}
+</style>
+    
+</body>
+</html>
